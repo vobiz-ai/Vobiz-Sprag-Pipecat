@@ -2,36 +2,35 @@
 <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#71717A"/></marker></defs>
 <rect x="0" y="0" width="1000" height="360" rx="0" fill="#0D1117" stroke="#0D1117" stroke-width="0"/>
 <rect x="20" y="120" width="120" height="90" rx="12" fill="#161B22" stroke="#30363D" stroke-width="1.5"/>
-<text x="80" y="160" font-size="26" font-weight="400" fill="#F4F4F5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">📞</text>
-<text x="80" y="192" font-size="15" font-weight="600" fill="#F4F4F5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">Caller</text>
+<text x="80" y="162" font-size="18" font-weight="600" fill="#F4F4F5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">Caller</text>
+<text x="80" y="186" font-size="14" font-weight="400" fill="#A1A1AA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">any phone</text>
 <rect x="190" y="100" width="180" height="130" rx="12" fill="#2A1710" stroke="#FF6A33" stroke-width="2"/>
-<text x="280" y="135" font-size="18" font-weight="700" fill="#FF6A33" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">Vobiz</text>
-<text x="280" y="162" font-size="13" font-weight="400" fill="#A1A1AA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">Phone number</text>
-<text x="280" y="182" font-size="12" font-weight="400" fill="#A1A1AA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">GET /answer → &lt;Stream&gt;</text>
-<text x="280" y="202" font-size="13" font-weight="400" fill="#A1A1AA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">Call audio stream</text>
+<text x="280" y="138" font-size="22" font-weight="700" fill="#FF6A33" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">Vobiz</text>
+<text x="280" y="170" font-size="15" font-weight="400" fill="#A1A1AA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">Phone number</text>
+<text x="280" y="194" font-size="15" font-weight="400" fill="#A1A1AA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">Streams call audio</text>
 <line x1="140" y1="152" x2="188" y2="152" stroke="#71717A" stroke-width="2" marker-end="url(#a)"/>
 <line x1="188" y1="180" x2="142" y2="180" stroke="#71717A" stroke-width="2" marker-end="url(#a)"/>
-<text x="164" y="143" font-size="11" font-weight="400" fill="#A1A1AA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">call</text>
-<text x="164" y="198" font-size="11" font-weight="400" fill="#A1A1AA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">audio</text>
+<text x="164" y="141" font-size="13" font-weight="400" fill="#A1A1AA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">call</text>
+<text x="164" y="200" font-size="13" font-weight="400" fill="#A1A1AA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">audio</text>
 <line x1="372" y1="150" x2="466" y2="150" stroke="#71717A" stroke-width="2" marker-end="url(#a)"/>
 <line x1="466" y1="182" x2="374" y2="182" stroke="#71717A" stroke-width="2" marker-end="url(#a)"/>
-<text x="419" y="140" font-size="11" font-weight="400" fill="#A1A1AA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">WebSocket</text>
-<text x="419" y="200" font-size="11" font-weight="400" fill="#A1A1AA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">/ws/&lt;token&gt;</text>
+<text x="419" y="138" font-size="13" font-weight="400" fill="#A1A1AA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">WebSocket</text>
+<text x="419" y="202" font-size="13" font-weight="400" fill="#A1A1AA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">audio</text>
 <rect x="470" y="40" width="500" height="250" rx="12" fill="#161B22" stroke="#30363D" stroke-width="1.5"/>
-<text x="720" y="70" font-size="15" font-weight="600" fill="#F4F4F5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">bot.py · Pipecat pipeline</text>
-<text x="720" y="92" font-size="11" font-weight="400" fill="#A1A1AA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">pipecat-vobiz converts the call audio · pipecat-sprag runs the models</text>
+<text x="720" y="74" font-size="19" font-weight="600" fill="#F4F4F5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">Your agent · Pipecat</text>
+<text x="720" y="100" font-size="14" font-weight="400" fill="#A1A1AA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">pipecat-vobiz + pipecat-sprag</text>
 <rect x="500" y="130" width="130" height="80" rx="12" fill="#1E1733" stroke="#A78BFA" stroke-width="2"/>
-<text x="565.0" y="162" font-size="16" font-weight="700" fill="#A78BFA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">Rhythm</text>
-<text x="565.0" y="186" font-size="12" font-weight="400" fill="#A1A1AA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">speech-to-text</text>
+<text x="565.0" y="162" font-size="19" font-weight="700" fill="#A78BFA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">Rhythm</text>
+<text x="565.0" y="188" font-size="14" font-weight="400" fill="#A1A1AA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">hears</text>
 <line x1="632" y1="170" x2="653" y2="170" stroke="#71717A" stroke-width="2" marker-end="url(#a)"/>
 <rect x="655" y="130" width="130" height="80" rx="12" fill="#1E1733" stroke="#A78BFA" stroke-width="2"/>
-<text x="720.0" y="162" font-size="16" font-weight="700" fill="#A78BFA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">Symphony</text>
-<text x="720.0" y="186" font-size="12" font-weight="400" fill="#A1A1AA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">writes the reply</text>
+<text x="720.0" y="162" font-size="19" font-weight="700" fill="#A78BFA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">Symphony</text>
+<text x="720.0" y="188" font-size="14" font-weight="400" fill="#A1A1AA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">replies</text>
 <line x1="787" y1="170" x2="808" y2="170" stroke="#71717A" stroke-width="2" marker-end="url(#a)"/>
 <rect x="810" y="130" width="130" height="80" rx="12" fill="#1E1733" stroke="#A78BFA" stroke-width="2"/>
-<text x="875.0" y="162" font-size="16" font-weight="700" fill="#A78BFA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">Chorus</text>
-<text x="875.0" y="186" font-size="12" font-weight="400" fill="#A1A1AA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">text-to-speech</text>
-<text x="720" y="240" font-size="12" font-weight="600" fill="#A78BFA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">Sprag models</text>
-<text x="720" y="268" font-size="11" font-weight="400" fill="#A1A1AA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">Silero VAD decides when the caller has finished speaking</text>
-<text x="720" y="322" font-size="12" font-weight="400" fill="#A1A1AA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">Chorus speaks at 24 kHz, and pipecat-vobiz converts it to the call's format (8 or 16 kHz).</text>
+<text x="875.0" y="162" font-size="19" font-weight="700" fill="#A78BFA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">Chorus</text>
+<text x="875.0" y="188" font-size="14" font-weight="400" fill="#A1A1AA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">speaks</text>
+<text x="720" y="246" font-size="16" font-weight="600" fill="#A78BFA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">Sprag models</text>
+<text x="720" y="272" font-size="14" font-weight="400" fill="#A1A1AA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">speech-to-text · Sprag's own model · text-to-speech</text>
+<text x="500" y="326" font-size="15" font-weight="400" fill="#A1A1AA" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">The reply goes back through Vobiz to the caller.</text>
 </svg>
