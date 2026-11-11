@@ -1,0 +1,9 @@
+pipecat-ai[websocket,silero]>=1.12,<2
+pipecat-vobiz>=0.1.1,<0.2
+pipecat-sprag>=0.1.0,<0.2
+fastapi
+uvicorn
+python-dotenv
+# For simulate_call.py
+websockets
+audioop-lts; python_version >= "3.13"
