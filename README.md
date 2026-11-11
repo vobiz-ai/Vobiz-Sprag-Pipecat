@@ -10,12 +10,10 @@ Full guide: [Sprag with Pipecat on Vobiz](https://www.vobiz.ai/docs/integrations
 
 ## Architecture
 
-```text
-Caller ──phone──▶ Vobiz number ──/answer──▶ bot.py returns <Stream> XML
-                       │
-                       └──WebSocket /ws/<token>──▶ Pipecat pipeline
-                             transport in → Rhythm → Symphony → Chorus → transport out
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/architecture-dark.svg">
+  <img alt="A caller phones a Vobiz number. Vobiz streams the call audio over a WebSocket to a Pipecat pipeline, where Sprag Rhythm transcribes it, Symphony replies and Chorus speaks the reply back to the caller." src="docs/architecture-light.svg" width="100%">
+</picture>
 
 [`pipecat-vobiz`](https://pypi.org/project/pipecat-vobiz/) converts between Vobiz's stream format and Pipecat audio, and [`pipecat-sprag`](https://pypi.org/project/pipecat-sprag/) provides the Sprag services. Chorus speaks at 24 kHz, and `pipecat-vobiz` converts it to the call's format.
 
