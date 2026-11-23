@@ -72,8 +72,8 @@ Calls are billed to your Vobiz account, and Sprag usage to your Sprag account. T
 | `SPRAG_API_KEY` | Yes | Your Sprag API key |
 | `VOBIZ_AUTH_ID`, `VOBIZ_AUTH_TOKEN` | Yes | Your Vobiz credentials, used to end the call when the agent hangs up |
 | `STREAM_TOKEN` | Recommended | The secret in the stream URL. A random one is generated at start-up if unset, and `simulate_call.py` needs it set |
-| `VOBIZ_CONTENT_TYPE` | No | `audio/x-mulaw;rate=8000` (default) or `audio/x-l16;rate=16000` |
-| `SPRAG_VOICE` | No | The Chorus voice, `wade` by default. See Sprag's [voice presets](https://sprag.ai/docs/tts/voices/presets) |
+| `VOBIZ_CONTENT_TYPE` | No | `audio/x-mulaw;rate=8000` (default), `audio/x-l16;rate=8000`, or `audio/x-l16;rate=16000` |
+| `SPRAG_VOICE` | No | The Chorus voice, `wade` by default. Sprag lists the voices at `GET /v1/audio/voices?model=chorus`, and in the voice library in the Sprag app |
 | `PORT` | No | The server port, `8765` by default |
 
 ## Customize
